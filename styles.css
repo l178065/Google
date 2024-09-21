@@ -1,0 +1,44 @@
+body {
+        background-color: white;
+            font-family: Arial, sans-serif;
+                margin: 0;
+                    padding: 20px;
+                    }
+
+                    .container {
+                        display: flex;
+                            flex-direction: column;
+                                align-items: center;
+                                }
+
+                                .row {
+                                    display: flex;
+                                        justify-content: center;
+                                            margin: 10px 0;
+                                            }
+
+                                            .product {
+                                                margin: 0 10px;
+                                                    text-align: center;
+                                                    }
+
+                                                    .product img {
+                                                        width: 100px; /* 根据需要调整商品图片的宽度 */
+                                                            height: auto;
+                                                                display: block;
+                                                                    margin: 0 auto;
+                                                                    }
+
+                                                                    button {
+                                                                        background-color: #4CAF50; /* 绿色按钮 */
+                                                                            color: white;
+                                                                                border: none;
+                                                                                    padding: 10px 20px;
+                                                                                        cursor: pointer;
+                                                                                            border-radius: 5px;
+                                                                                            }
+
+                                                                                            button:hover {
+                                                                                                background-color: #45a049; /* 鼠标悬停时按钮颜色变化 */
+                                                                                                }
+}
